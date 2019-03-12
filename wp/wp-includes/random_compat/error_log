@@ -1,0 +1,11 @@
+[26-Oct-2018 11:06:14 UTC] PHP Fatal error:  Cannot redeclare random_int() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_int.php on line 191
+[26-Oct-2018 11:09:40 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_openssl.php on line 83
+[26-Oct-2018 11:40:50 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_com_dotnet.php on line 81
+[26-Oct-2018 13:29:30 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_libsodium_legacy.php on line 86
+[26-Oct-2018 13:29:40 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_libsodium.php on line 86
+[26-Oct-2018 20:07:12 UTC] PHP Fatal error:  Cannot redeclare random_int() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_int.php on line 191
+[26-Oct-2018 20:27:24 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_mcrypt.php on line 76
+[26-Oct-2018 20:32:28 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_libsodium.php on line 86
+[26-Oct-2018 20:37:31 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_com_dotnet.php on line 81
+[26-Oct-2018 20:42:33 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_dev_urandom.php on line 148
+[26-Oct-2018 21:17:55 UTC] PHP Fatal error:  Cannot redeclare random_bytes() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/random_compat/random_bytes_libsodium_legacy.php on line 86

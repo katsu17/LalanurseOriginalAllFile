@@ -1,0 +1,982 @@
+@charset "UTF-8";
+/* 共通変数・プレースホルダー */
+nav.posmenu {
+  margin-bottom: 20px;
+}
+
+.bottominfo__kyukan-text {
+  color: #16A365;
+  font-weight: bold;
+  font-size: 140%;
+  margin-bottom: 0;
+}
+
+/*ごあいさつ*/
+.anniversary-photo {
+  float: left;
+  margin-right: 20px;
+}
+
+.anniversary-photo img {
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+/*フロアガイド*/
+.floorguide-map {
+  text-align: center;
+}
+
+.floorguide-list__2f, .floorguide-list__3f, .floorguide-list__private {
+  list-style: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.floorguide-list__2f:after, .floorguide-list__3f:after, .floorguide-list__private:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.floorguide-list__2f > li, .floorguide-list__3f > li, .floorguide-list__private > li {
+  display: block;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  width: 410px;
+  float: left;
+}
+
+.floorguide-list__2f > li img, .floorguide-list__3f > li img, .floorguide-list__private > li img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.floorguide-list__2f > li > p, .floorguide-list__3f > li > p, .floorguide-list__private > li > p {
+  margin-bottom: 10px;
+}
+
+.floorguide-list__2f > li > span, .floorguide-list__3f > li > span, .floorguide-list__private > li > span {
+  font-size: 1.6rem;
+}
+
+.floorguide-list__2f .double, .floorguide-list__3f .double, .floorguide-list__private .double {
+  width: 100%;
+}
+
+.floorguide-list__2f .double > img, .floorguide-list__3f .double > img, .floorguide-list__private .double > img {
+  width: 410px;
+  float: left;
+  margin-right: 10px;
+}
+
+.floorguide-list__2f .double > img:nth-child(2n), .floorguide-list__3f .double > img:nth-child(2n), .floorguide-list__private .double > img:nth-child(2n) {
+  margin: 0;
+}
+
+.floorguide-list__2f .double > p, .floorguide-list__3f .double > p, .floorguide-list__private .double > p {
+  clear: both;
+}
+
+.floorguide-list__2f li:nth-child(2n), .floorguide-list__private li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.floorguide-list__2f li:nth-child(2n+1), .floorguide-list__private li:nth-child(2n+1) {
+  clear: both;
+}
+
+.floorguide-list__3f > li:nth-child(1), .floorguide-list__3f > li:nth-child(3), .floorguide-list__3f > li:nth-child(5) {
+  margin-right: 0;
+}
+
+.floorguide-list__3f > li:nth-child(2), .floorguide-list__3f > li:nth-child(4) {
+  clear: both;
+}
+
+.floorguide-list__private {
+  margin-top: 10px;
+}
+
+/*イブフォーマ*/
+.eveforma-image {
+  width: auto;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.eveforma-image:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.eveforma-image > img {
+  margin-right: 10px;
+}
+
+.eveforma-image > img:last-child {
+  margin: 0;
+}
+
+/*当院の特徴*/
+.feature-img {
+  max-width: 300px;
+  float: right;
+  margin-left: 20px;
+}
+
+.feature-img img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+/*4Dエコー検査*/
+.four_d_echo-image {
+  float: right;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.four_d_echo-image > img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.four_d_echo-image > img:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+/*BSS*/
+.bss {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.bss-image {
+  width: 350px;
+  float: right;
+  margin-left: 10px;
+}
+
+.bss-image > img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.bss-list {
+  margin: 0;
+  padding: 0;
+}
+
+.bss-list > li {
+  display: inline-block;
+  padding: 0 0 0 20px;
+  margin-bottom: 5px;
+  background: url(../img/arrow_1.png) left center no-repeat;
+  background-size: 7px 12px;
+}
+
+.bss-list > li:link, .bss-list > li:visited, .bss-list > li:active {
+  color: #16A365;
+  text-decoration: none;
+}
+
+.bss-list > li:hover {
+  color: #16A365;
+  text-decoration: none;
+}
+
+.bss-dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.bss-dllist > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+/*お産について*/
+.birth-list {
+  list-style: disc;
+}
+
+.birth-list > li {
+  padding: 5px;
+}
+
+.birth-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.birth-tel {
+  font-size: 1.6rem;
+  border-bottom: 1px dashed #C1272D;
+}
+
+.birth-borderbox {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: solid 1px #ddd;
+}
+
+.birth-borderbox > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.birth-borderbox > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+/*お祝い膳*/
+.celebration {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.celebration-image {
+  margin-left: 20px;
+  width: 350px;
+  float: right;
+  text-align: center;
+}
+
+.celebration-image__celebration {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+.celebration-image__celebration > img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.celebration-image > img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+/*入院中の主な流れ*/
+.flow-list {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.flow-list > dt {
+  padding-bottom: 5px;
+  color: #16A365;
+  font-size: 2rem;
+}
+
+.flow-list > dd {
+  margin-bottom: 15px;
+}
+
+/*これからママになる方へ*/
+.motherclass-image {
+  margin-left: 20px;
+  width: 350px;
+  float: right;
+  text-align: center;
+}
+
+.motherclass-image > img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.motherclass-dllist {
+  line-height: 1.5;
+}
+
+.motherclass-dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.motherclass-dllist > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+/*料金について*/
+.price-dllist {
+  line-height: 1.5;
+  display: block;
+  margin: 10px 0;
+}
+
+.price-dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.price-dllist > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+/*お問合せ*/
+.reservation-dllist {
+  margin: 0 0 30px;
+  padding: 0;
+  border-top: 1px solid #ddd;
+}
+
+.reservation-dllist em.must {
+  display: inline-block;
+  margin: 0 5px 5px;
+  padding: 3px 10px 1px;
+  background: #E61934;
+  border-radius: 5px;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.reservation-dllist > dt {
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 15px;
+  font-size: 1.6rem;
+}
+
+.reservation-dllist > dd {
+  margin: 0;
+  padding: 15px 15px 15px 30%;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservation-submitb {
+  width: 40%;
+  margin: 50px 0;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #16A365;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/*医師・職員のご紹介*/
+.doctor-list {
+  list-style: none;
+  margin: 20px 0 30px;
+  padding: 0;
+}
+
+.doctor-list > li {
+  display: block;
+  clear: both;
+  padding: 30px 0;
+  border-top: dotted 1px #ddd;
+}
+
+.doctor-list > li:last-child {
+  border-bottom: dotted 1px #ddd;
+}
+
+.doctor-list > li:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.doctor-list__photo {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.doctor-list__photo > img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.doctor-list__dllist {
+  float: left;
+  margin: 0;
+}
+
+.doctor-list__dllist:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.doctor-list__dllist > dt {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.doctor-list__dllist > dd {
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-list__dllist > dd > p {
+  margin: 0 0 10px;
+}
+
+.doctor-list__dllist > dd > p:last-child {
+  margin: 0;
+}
+
+.nurse__photo, .receptionist__photo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nurse__photo > img, .receptionist__photo > img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.kitchen__photo {
+  float: left;
+  width: 410px;
+  margin: 0 10px 20px 0;
+}
+
+.kitchen__photo > img {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.kitchen__photo:nth-child(2) {
+  margin: 0;
+}
+
+/*院内教室のご案内*/
+.classroom-list {
+  clear: both;
+  list-style: none;
+}
+
+.classroom-list > li {
+  display: block;
+  margin: -10px 0 -10px -30px;
+  padding: 10px 0 10px 30px;
+  background: url(../img/arrow_1.png) 10px 14px no-repeat;
+  background-size: 8px 12px;
+}
+
+.classroom-borderbox {
+  display: block;
+  padding: 10px;
+  border: solid 1px #ddd;
+}
+
+.classroom-photo {
+  float: right;
+  margin-left: 20px;
+}
+
+.classroom-photo img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.maternitypilates-photo {
+  float: right;
+  margin-left: 20px;
+}
+
+.maternitypilates-photo img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.maternitypilates-dllist {
+  clear: both;
+  margin-bottom: 60px;
+}
+
+.pelviscare-dllist > dt, .breastoutpatient-dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.pelviscare-dllist > dd, .breastoutpatient-dllist > dd {
+  padding: 0;
+  margin: 10px 0 40px;
+}
+
+/*アクセス*/
+.access-mapbody iframe {
+  pointer-events: none;
+}
+
+.access-mapbody iframe.clicked {
+  pointer-events: auto;
+}
+
+.access-map {
+  margin-bottom: 60px;
+}
+
+.access-photo {
+  float: right;
+  margin-left: 20px;
+}
+
+.access-photo:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.access-photo img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.access-box {
+  width: 500px;
+  margin: 30px auto;
+}
+
+/*プライバシーポリシー*/
+.privacypolicy-dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.privacypolicy-dllist > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+/*Q＆A*/
+.qa-dllist {
+  margin: 10px 0 60px;
+}
+
+.qa-dllist > dt {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background: #16A365;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.qa-dllist > dd {
+  display: none;
+  padding: 0 20px;
+  margin: 10px 0 20px;
+}
+
+.switch .question:after {
+  position: absolute;
+  top: 55%;
+  right: 20px;
+  margin-top: -1.4rem;
+  content: '▼';
+  font-size: 1.4rem;
+  font-weight: bold;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -moz-transition: all, 0.25s, linear;
+  -o-transition: all, 0.25s, linear;
+  -webkit-transition: all, 0.25s, linear;
+  transition: all, 0.25s, linear;
+}
+
+.switch .question.active:after {
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -webkit-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/*お問合せ*/
+.contact-dllist {
+  margin: 0 0 30px;
+  padding: 0;
+  border-top: 1px solid #ddd;
+}
+
+.contact-dllist em.must {
+  display: inline-block;
+  margin: 0 5px 5px;
+  padding: 3px 10px 1px;
+  background: #E61934;
+  border-radius: 5px;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contact-dllist > dt {
+  clear: both;
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 15px;
+  font-size: 1.6rem;
+}
+
+.contact-dllist > dd {
+  margin: 0;
+  padding: 15px 15px 15px 30%;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-submitbox {
+  text-align: center;
+}
+
+.contact-submitb {
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #16A365;
+  color: #fff;
+  font-size: 2rem;
+}
+
+input[type="tel"] {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 100%;
+}
+
+/*職員募集*/
+.recruit-detail {
+  margin-bottom: 30px;
+}
+
+.recruit-detail > dt {
+  clear: both;
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 14px;
+  font-size: 1.6rem;
+}
+
+.recruit-detail > dd {
+  margin: 0;
+  padding: 15px 15px 15px 30%;
+  border-bottom: 1px solid #ddd;
+}
+
+.recruit-detail > dd:nth-child(4n) {
+  background-color: #f2f2f2;
+}
+
+.recruit-voice__dllist {
+  margin-bottom: 20px;
+}
+
+.recruit-voice__dllist > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.recruit-voice__dllist > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+.recruit-voice__dllist > dd:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.recruit-voice__photo {
+  float: right;
+  margin-left: 20px;
+}
+
+.recruit-voice__photo img {
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.recruit-voice__box {
+  display: block;
+  padding: 20px;
+  border: solid 1px #ddd;
+}
+
+.recruit-voice__box .comment {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+/*デイケア浦田*/
+.daycare-list > dt {
+  padding: 5px 10px;
+  border-left: solid 5px #16A365;
+  font-size: 1.6rem;
+  color: #16A365;
+}
+
+.daycare-list > dd {
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+.daycare-box {
+  display: block;
+  padding: 10px;
+  border: solid 1px #ddd;
+}
+
+/* media query 部 */
+@media only screen and (max-width: 767px) {
+  .anniversary-photo {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /*フロアガイド*/
+  .floorguide-list__2f, .floorguide-list__3f, .floorguide-list__private {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .floorguide-list__2f > li, .floorguide-list__3f > li, .floorguide-list__private > li {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .floorguide-list__2f > li img, .floorguide-list__3f > li img, .floorguide-list__private > li img {
+    max-width: 100%;
+  }
+  .floorguide-list__2f .double, .floorguide-list__3f .double, .floorguide-list__private .double {
+    width: 100%;
+  }
+  .floorguide-list__2f .double > img, .floorguide-list__3f .double > img, .floorguide-list__private .double > img {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .floorguide-list__2f .double > img:nth-child(2), .floorguide-list__3f .double > img:nth-child(2), .floorguide-list__private .double > img:nth-child(2) {
+    margin: 0;
+  }
+  .feature-img {
+    max-width: 100%;
+    float: none;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  /*イブフォーマ*/
+  .eveforma-image {
+    text-align: center;
+  }
+  .eveforma-image > img {
+    float: none;
+    margin: 0 0 10px;
+  }
+  /*4Dエコー*/
+  .four_d_echo-image {
+    text-align: center;
+    float: none;
+  }
+  /*お祝い膳*/
+  .celebration-image, .celebration-image__celebration {
+    max-width: 100%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .celebration-image > img, .celebration-image__celebration > img {
+    float: none;
+    margin: 0 0 10px;
+  }
+  /*これからママになる方へ*/
+  .motherclass-image {
+    max-width: 100%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .motherclass-image > img {
+    float: none;
+    margin: 0 0 10px;
+  }
+  /*BSS*/
+  .bss-image {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  .bss-image > img {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin: 0 0 10px;
+  }
+  /*医師・職員のご紹介*/
+  .doctor-list__photo {
+    width: 100%;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+  .kitchen__photo {
+    width: 100%;
+    float: none;
+  }
+  /*院内教室のご案内*/
+  .classroom-photo {
+    max-width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  /*マタニティピラティス*/
+  .maternitypilates-photo {
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  /*アクセス*/
+  .access-map {
+    max-width: 100%;
+  }
+  .access-photo {
+    float: none;
+    text-align: center;
+  }
+  .access-box {
+    width: 100%;
+    margin: auto;
+  }
+  /*Q＆A*/
+  .qa-dllist > dt {
+    padding: 10px 40px 10px 5px;
+  }
+  .qa-dllist > dd {
+    padding: 0 10px;
+  }
+  /*お問合せ*/
+  .contact-dllist > dt {
+    float: none;
+    width: auto;
+    padding: 10px 0;
+  }
+  .contact-dllist > dd {
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px dotted #ddd;
+    border-bottom-color: #ddd;
+  }
+  .contact-dllist input[type="text"], .contact-dllist input[type="tel"], .contact-dllist input[type="email"], .contact-dllist textarea {
+    max-width: 100%;
+  }
+  .contact-submitb {
+    width: 100%;
+    margin: 30px 0;
+  }
+  /*職員募集*/
+  .recruit-detail {
+    margin-bottom: 30px;
+  }
+  .recruit-detail > dt {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #ddd;
+    background: #f2f2f2;
+  }
+  .recruit-detail > dd {
+    margin: 0;
+    padding: 15px;
+  }
+  .recruit-detail > dd:nth-child(4n) {
+    background: #fff;
+  }
+  .recruit-voice__dllist {
+    margin-bottom: 20px;
+  }
+  .recruit-voice__dllist > dt {
+    padding: 5px 10px;
+    border-left: solid 5px #16A365;
+    font-size: 1.6rem;
+    color: #16A365;
+  }
+  .recruit-voice__dllist > dd {
+    padding: 0;
+    margin: 10px 0 20px;
+  }
+  .recruit-voice__dllist > dd:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .recruit-voice__photo {
+    float: right;
+    margin-left: 20px;
+  }
+  .recruit-voice__photo img {
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-bottom: 15px;
+  }
+  .recruit-voice__box {
+    display: block;
+    padding: 20px;
+    border: solid 1px #ddd;
+  }
+  .recruit-voice__box .comment {
+    color: #ff9900;
+    font-weight: bold;
+  }
+}

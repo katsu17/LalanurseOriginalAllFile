@@ -1,0 +1,1 @@
+[25-Oct-2018 12:22:42 UTC] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/rest-api/class-wp-rest-response.php on line 17

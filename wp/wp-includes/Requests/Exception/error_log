@@ -1,0 +1,3 @@
+[30-Oct-2018 07:57:01 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/Requests/Exception/HTTP.php on line 13
+[31-Oct-2018 01:43:04 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/Requests/Exception/Transport.php on line 3
+[31-Oct-2018 09:32:12 UTC] PHP Fatal error:  Class 'Requests_Exception' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/Requests/Exception/Transport.php on line 3

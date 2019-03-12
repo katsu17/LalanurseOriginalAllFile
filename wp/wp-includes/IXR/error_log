@@ -1,0 +1,2 @@
+[25-Oct-2018 04:31:37 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[25-Oct-2018 04:46:45 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/IXR/class-IXR-introspectionserver.php on line 9

@@ -1,0 +1,133 @@
+[24-Oct-2018 08:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom.php on line 8
+[24-Oct-2018 08:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/template-loader.php on line 28
+[24-Oct-2018 08:58:21 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/functions.php on line 8
+[24-Oct-2018 08:58:21 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/functions.php on line 8
+[24-Oct-2018 08:58:42 UTC] PHP Fatal error:  Class 'Walker' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-walker-category.php on line 17
+[24-Oct-2018 09:26:23 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-panel.php on line 399
+[24-Oct-2018 09:26:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-panel.php on line 399
+[24-Oct-2018 09:26:44 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-simplepie.php on line 5
+[24-Oct-2018 09:26:44 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-simplepie.php on line 5
+[24-Oct-2018 09:28:45 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-xmlrpc-server.php on line 23
+[24-Oct-2018 09:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/update.php:711
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/update.php on line 711
+[24-Oct-2018 09:55:46 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-control.php on line 681
+[24-Oct-2018 09:55:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-control.php on line 681
+[24-Oct-2018 10:31:54 UTC] PHP Fatal error:  Class 'Requests_Hooks' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-http-requests-hooks.php on line 17
+[24-Oct-2018 10:33:15 UTC] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-http.php on line 11
+[24-Oct-2018 10:33:15 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-http.php on line 11
+[24-Oct-2018 10:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom-comments.php on line 8
+[24-Oct-2018 10:34:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-atom.php on line 8
+[24-Oct-2018 10:34:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/vars.php on line 23
+[24-Oct-2018 10:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-snoopy.php on line 6
+[24-Oct-2018 10:37:18 UTC] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-IXR.php on line 42
+[24-Oct-2018 10:37:18 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-IXR.php on line 42
+[24-Oct-2018 10:56:53 UTC] PHP Fatal error:  Class 'Walker' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-walker-page-dropdown.php on line 17
+[24-Oct-2018 10:57:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/embed-template.php on line 11
+[24-Oct-2018 11:18:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/session.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/session.php on line 8
+[24-Oct-2018 11:19:11 UTC] PHP Fatal error:  Class 'SimplePie_Cache' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-feed-cache.php on line 17
+[24-Oct-2018 11:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/default-filters.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/default-filters.php on line 17
+[24-Oct-2018 11:47:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2.php on line 8
+[24-Oct-2018 11:47:54 UTC] PHP Fatal error:  Class 'WP_Session_Tokens' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-user-meta-session-tokens.php on line 15
+[24-Oct-2018 11:48:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/registration.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/registration.php on line 7
+[24-Oct-2018 11:49:35 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-filter-setting.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-setting.php on line 955
+[24-Oct-2018 11:49:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-filter-setting.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-customize-setting.php on line 955
+[24-Oct-2018 11:50:16 UTC] PHP Fatal error:  Class 'Text_Diff_Renderer_inline' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-text-diff-renderer-inline.php on line 16
+[24-Oct-2018 11:51:17 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class.wp-styles.php on line 18
+[24-Oct-2018 11:52:17 UTC] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-http-requests-response.php on line 17
+[24-Oct-2018 11:52:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/rss-functions.php on line 8
+[24-Oct-2018 11:52:59 UTC] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class.wp-scripts.php on line 18
+[24-Oct-2018 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/ms-default-filters.php on line 16
+[24-Oct-2018 11:53:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/registration-functions.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/registration-functions.php on line 7
+[24-Oct-2018 12:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-feed.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-feed.php on line 9
+[24-Oct-2018 12:20:54 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-image-editor-gd.php on line 17
+[24-Oct-2018 12:36:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2.php on line 8
+[24-Oct-2018 12:53:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rdf.php on line 8
+[24-Oct-2018 12:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/locale.php on line 10
+[24-Oct-2018 12:54:41 UTC] PHP Fatal error:  Class 'Walker' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-walker-category-dropdown.php on line 17
+[24-Oct-2018 12:57:39 UTC] PHP Fatal error:  Class 'Text_Diff_Renderer_inline' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-text-diff-renderer-inline.php on line 16
+[24-Oct-2018 13:52:26 UTC] PHP Fatal error:  Class 'Walker' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-walker-nav-menu.php on line 17
+[24-Oct-2018 18:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss2-comments.php on line 8
+[24-Oct-2018 19:13:30 UTC] PHP Fatal error:  Class 'IXR_Client' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-http-ixr-client.php on line 9
+[24-Oct-2018 20:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/feed-rss.php on line 8
+[24-Oct-2018 23:12:03 UTC] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/script-loader.php on line 20
+[24-Oct-2018 23:12:03 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-wp-dependency.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/script-loader.php on line 20
+[25-Oct-2018 20:13:13 UTC] PHP Fatal error:  Class 'SimplePie_File' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-simplepie-file.php on line 17
+[25-Oct-2018 20:14:33 UTC] PHP Fatal error:  Class 'SimplePie_Sanitize' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-simplepie-sanitize-kses.php on line 20
+[25-Oct-2018 20:24:55 UTC] PHP Fatal error:  Class 'SimplePie_File' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-simplepie-file.php on line 17
+[25-Oct-2018 20:47:01 UTC] PHP Warning:  require_once(ABSPATHWPINC/class-walker-nav-menu.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/nav-menu-template.php on line 11
+[25-Oct-2018 20:47:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-walker-nav-menu.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/nav-menu-template.php on line 11
+[26-Oct-2018 06:41:09 UTC] PHP Warning:  require(ABSPATHWPINC/Text/Diff.php): failed to open stream: No such file or directory in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/wp-diff.php on line 13
+[26-Oct-2018 06:41:09 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Text/Diff.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/wp-diff.php on line 13
+[26-Oct-2018 07:14:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/rss.php on line 19
+[26-Oct-2018 14:28:32 UTC] PHP Fatal error:  Class 'Walker' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-walker-comment.php on line 17
+[30-Oct-2018 08:28:53 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-image-editor-imagick.php on line 17
+[02-Nov-2018 03:20:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/media.php:1486
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/media.php on line 1486
+[02-Nov-2018 03:46:17 UTC] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/xlvfyskp/public_html/lalanursehonban/wp/wp-includes/class-wp-image-editor-imagick.php on line 17

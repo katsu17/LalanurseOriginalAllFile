@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* 共通変数・プレースホルダー */
+
+$lightgrey: #ddd;
+$darkgrey: #151515;
+$themecolor:#593A21;
+$themecolor2:#6B4826;
+$themecolor3:#e9debf;
+$renewaldatecolor:#ef6767;
+$red: #C1272D;
+$linegreen: #5cb85c;
+$fbblue: #305097;
+$labelcolor-contents: #F7931E;	/*ラベル 種類*/
+$labelcolor-pref: #3E6990;		/*ラベル 地域*/
+$labelcolor-company: #F67E7D;	/*ラベル 団体*/
+$labelcolor-target: #93278F;	/*ラベル 職種*/
+
+
+
+@mixin fs($s:14) { /* IE8以下用、スマホ専用サイトでは不要 */
+	font-size:$s + px;
+	font-size:($s / 10) + rem;
+}
+
+@mixin clearfix {
+	&:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
+%clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+%contentsh1 {
+	clear:both;
+	margin:0 0 60px;
+	padding:0 0 30px;
+	line-height:1.25;
+	font-weight:normal;
+	text-align:center;
+	background-size:92px 5px;
+    color: $themecolor;
+}
+%contentsh2 {
+	clear:both;
+	margin:0 0 30px;
+	padding:10px 20px;
+	line-height:1.25;
+	font-weight:normal;
+	color:$themecolor;
+    background: #f6f5ed;
+}
+@mixin button($fontsize:18,$borderradius:4px) {
+	display: inline-block;
+	margin:30px 0;
+	padding:10px 30px;
+	background-color:$themecolor;
+	border-radius: $borderradius;
+	@include fs($fontsize);
+	text-shadow:none;
+	&:link,
+	&:visited,
+	&:active {
+		color:#fff;
+	}
+	&:hover {
+		transition: .25s;
+		color:#fff;
+		text-decoration:none;
+		background-color:$themecolor*1.2;
+	}
+	&--red {
+		background-color:$red;
+		&:hover {
+			color:#fff;
+			text-decoration:none;
+			background-color:$red*1.2;
+		}
+	}
+	&--white {
+		background-color:#fff;
+        padding: 2px;
+        border: 2px solid $themecolor2;
+        border-radius: 4px;
+		&:link,
+		&:visited,
+		&:active {
+			color:$themecolor;
+		}
+		&:hover {
+			text-decoration:none;
+			color:$lightgrey;
+			background-color:$themecolor2;
+		}
+        span {
+            padding: 10px 40px;
+            border: 1px solid $themecolor2;
+            display: inline-block;
+            border-radius: 4px;
+        }
+	}
+    &--line {
+        background: $linegreen;
+        &:hover {
+            transition: .25s;
+            color:#fff;
+            text-decoration:none;
+            background-color:$linegreen*1.2;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.columnlist a {
+  display: block;
+  height: 240px;
+  border-radius: 6px;
+}
+
+#headerblock {
+  background: -o-linear-gradient(left, #faf4f0 0%, #f7dfd2 100%);
+  background: -ms-linear-gradient(left, #faf4f0 0%, #f7dfd2 100%);
+  background: linear-gradient(to right, #faf4f0 0%, #f7dfd2 100%);
+  border-bottom: 1px solid #e9debf;
+}
+
+.home-topimage__text p {
+  font-size: 2rem;
+}

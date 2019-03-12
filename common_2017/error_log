@@ -1,0 +1,16 @@
+[24-Dec-2018 04:52:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_front_page() in /home/xlvfyskp/public_html/lalanursehonban/common_2017/headercontents.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/common_2017/headercontents.php on line 7
+[24-Dec-2018 04:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_home() in /home/xlvfyskp/public_html/lalanursehonban/common_2017/bannerblock.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/common_2017/bannerblock.php on line 29
+[24-Dec-2018 04:52:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_home() in /home/xlvfyskp/public_html/lalanursehonban/common_2017/bannerblock.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/common_2017/bannerblock.php on line 29
+[24-Dec-2018 04:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_front_page() in /home/xlvfyskp/public_html/lalanursehonban/common_2017/headerblock.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xlvfyskp/public_html/lalanursehonban/common_2017/headerblock.php on line 3

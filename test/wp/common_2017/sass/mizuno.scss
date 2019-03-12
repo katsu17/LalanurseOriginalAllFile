@@ -1,0 +1,22 @@
+.columnlist {
+	a {
+		display: block;
+		height: 240px;
+		border-radius: 6px;
+	}
+}
+#headerblock {
+	background: -o-linear-gradient(left, rgba(250,244,240,1) 0%, rgba(247,223,210,1) 100%);
+	background: -ms-linear-gradient(left, rgba(250,244,240,1) 0%, rgba(247,223,210,1) 100%);
+	background: linear-gradient(to right, rgba(250,244,240,1) 0%, rgba(247,223,210,1) 100%);
+	border-bottom: 1px solid #e9debf;
+}
+.home {
+	&-topimage {
+		&__text {
+			p {
+				font-size: 2rem;
+			}
+		}
+	}
+}
